@@ -1,0 +1,22 @@
+name: CMN
+version: '${project.version}'
+main: org.vega.personal.cmn.CMN
+api-version: '1.17'
+load: STARTUP
+prefix: CMN
+authors: [vovamod]
+description: CMN - Custom Model Name plugin developed by vovamod. Change your item name via anvil, add color and Custom Model Data
+commands:
+  creload:
+    description: CMN reload
+    usage: /creload
+permissions:
+  cmn.reload:
+    default: false
+    description: This is permission for reloading/managing plugin, if true only the player with specific permission would be able to reload plugin.
+  cmn.color:
+    default: true
+    description: This permission grants user ability to rename items with color
+  cmn.cmd:
+    default: true
+    description: This permission grants user ability to apply Custom Model Data

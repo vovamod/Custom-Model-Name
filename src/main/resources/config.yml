@@ -1,0 +1,10 @@
+# CMN - CMN - Custom Model Name plugin developed by vovamod. Change your item name via anvil, add color and Custom Model Data
+# Current version
+version: 1.0
+
+# This is a predefined names for items as well as Custom Model Data ID. (Don't leave Custom Model Data ID blank)
+# Example: "exampl&1e:710"
+# You can Include colors as well and user can write a name in anvil like "example" but it will be overridden to "exampl&1e" as mentioned earlier
+predefined:
+  - "Gun&4inator:702"
+  - "&6Compass Beauty:22"
